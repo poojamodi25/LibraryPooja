@@ -1,0 +1,70 @@
+.menu{
+    height:70px;
+    width:100%;    
+}
+
+.nav{
+    height:40px;
+    width:100%; 
+    display: flex;
+    background: #ADEFD1FF;
+}
+
+
+.nav1{
+   display: none;
+}
+.menu-icon{
+    height:30px;
+    width:30px;
+}
+
+.slider{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .block{
+        position: fixed;
+        top:0px;
+        left:0px;
+        height:calc(100vh);
+        width:100%;
+        opacity:0.1;
+        background: #111;
+        z-index: 5;
+    }
+
+    .nav1{
+        height:40px;
+        width:100%;    
+        background: #ADEFD1FF;
+        display: flex;
+    }
+    .nav{
+        display: none;
+    }
+    .slider{
+      height: 100%;
+      width: 0;
+      position: fixed;
+      display: flex;
+      z-index: 1;
+      top: 110;
+      left: 0;
+      background-color: #496076;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 30px;
+      
+    }
+    .s-open{
+        width:200px;
+    }
+    .s-close{
+        width:0px;
+     
+    }
+   
+  }
