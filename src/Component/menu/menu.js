@@ -1,7 +1,7 @@
 import React from 'react'
 import './menu.css'
 import SliderMenu from './sliderMenu'
-
+import { Link } from 'react-router-dom'
 class Menu extends React.Component
 {
     constructor(props)
@@ -40,8 +40,11 @@ class Menu extends React.Component
                   <div class="fc center  mr-30">
                   <input className="in-search  " type="text" placeholder="Search from google"/>
                 </div>
-                <div class="fc center mr-30 fs-20">
-                    SignIn/Login
+                <div class="fc center mr-30 fs-18">
+                  <div class ="fr center">
+                  <Link className="mr-10" to="/login">Login</Link>
+                  <Link to="/signup">Signup</Link>
+                  </div>
                 </div>
               </div>
           </div>

@@ -108,4 +108,23 @@ color:#ADEFD1FF;
 }
 
 
+/* for login */
+
+.login{
+    min-height:250px;
+    width:300px;
+    border:1px solid;
+   border-radius: 5px ;
+   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.log-header{
+    height:30px;
+    width:300px;
+    background:#496076;
+    color:#ADEFD1FF;
+    padding-top:10px;
+
+}
+
+
 
